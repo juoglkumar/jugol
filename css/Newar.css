@@ -1,0 +1,146 @@
+*{margin:0px;padding:0px;}
+body{
+	background-color:#f7d1d1;
+}
+.main_wraper{
+	width:100%;
+	
+}
+.wraper{
+	width:960px;
+	display:block;
+	margin:0 auto;
+}
+.hedar_part{
+	background:orange;
+	border-bottom:5px solid black;
+	border-top:5px solid black;
+}
+#hedar{
+	background-color:orange;
+	border-left:1px solid gray;
+	border-right:1px solid gray;
+	padding:20px;
+}
+#hedar h2{
+	color:white;
+}
+#hedar p{
+	color:green;
+}
+
+#nav{
+	background-color:#fff;
+	height:39px;
+	border-right:1px solid gray;
+	border-left:1px solid gray;
+	
+}
+.nav_bg{
+	background:#d1fb4a;
+	border-bottom:5px solid black;
+	border-right:1px solid black;
+}
+#nav ul{
+	background-color:#fff;
+	list-style-type:none;
+}
+#nav ul li{
+	float:left;
+	 
+}
+#nav ul li:last-child{
+	border-right:none;
+}
+#nav ul li a{
+	text-decoration:none;
+	color:orange;
+	display:block;
+	padding:10px 20px;
+	transition:0.3s;
+	
+
+}
+#nav ul li a:hover{
+	color:red;
+	background:orange;
+
+}
+
+#nav ul li{
+	position:relative;
+	
+}
+#nav ul li ul{
+	position:absolute;
+	left:-99999999px;
+}
+#nav ul li:hover ul{
+	left:0px;
+}
+#nav ul li ul li{
+	border-right:none;
+	border-left:none;
+	border-top:1px solid black;
+	border-bottom:1px solid #655b5b;
+	width:150px;
+	position:relative;
+	
+}
+#nav ul li ul li:last-child{
+	border-bottom:none;
+}
+#nav ul li ul li ul{
+	position:absolute;
+	top:-9999999px;
+}
+#nav ul li ul li:hover ul{
+	top:-1px;
+	left:150px;
+	
+}
+#nav ul li ul li{
+	border-left:1px solid #655b5b;
+}
+#nav ul li ul li:last-child{
+	border-bottom:1px solid #655b5b;
+}
+#main_wraper{
+	width:960px;
+	margin:10px auto;
+	border-left:1px solid gray;
+	border-right:1px solid gray;
+}
+#main_wraper img{
+	width:300px;
+	height:180px;
+}
+#main_wraper p{
+	width:300px;
+	text-align:justify;
+}
+#main_wraper h2{
+	background:orange;
+	padding:3px;
+	margin:5px 0px;
+}
+#main_wraper a{
+	background:orange;
+	text-decoration:none;
+	text-align:center;
+	display:block;
+}
+#wraper{
+	float:left;
+	margin-right:28px;
+}
+#wraper:last-child{
+	margin-right:0px;
+
+}
+#wraper_footer{
+	width:960px;
+	margin:0 auto;
+	background:gray;
+	height:200px;
+}
